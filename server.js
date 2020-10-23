@@ -6,7 +6,7 @@ var exphbs = require("express-handlebars");
 
 var GMAIL_USER = process.env.EMAIL;
 var GMAIL_PASS = process.env.PASS;
-var PORT = 8080;
+// var PORT = 8080;
 
 var app = express();
 
@@ -25,7 +25,10 @@ app.get("/contact", (req, res) => {
   res.render('contact', {layout: false});
 });
 
-app.listen(PORT, () => console.log(`Server is listening on PORT: ${PORT}`));
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
 
 app.post("/contact", (req, res) => {
   var smtpTrans = nodemailer.createTransport({
