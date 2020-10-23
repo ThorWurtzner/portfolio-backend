@@ -1,0 +1,161 @@
+
+.footer {
+    /* min-height: 60vh; */
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__contact {
+    box-sizing: initial;
+    height: 13vh;
+    width: 85%;
+    border-radius: 0.5em;
+    background-color: var(--dark-blue);
+    position: relative;
+    top: -3em;
+    padding: 0.2em 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact__title {
+    font-weight: normal;
+    font-size: 5vw;
+    font-family: 'SansationReg', sans-serif;
+    color: #fff;
+}
+
+.contact__button {
+    text-decoration: none;
+    width: 60%;
+    font-family: 'SansationReg', sans-serif;
+    font-size: 5vw;
+    background: none;
+    color: #fff;
+    border: 2px solid var(--light-blue);
+    border-radius: 2em;
+    padding: 0.3em 1em;
+
+    display: flex;
+    justify-content: center;
+
+    transition: .3s;
+}
+
+.footer__img {
+    display: block;
+    margin-top: -1.5em;
+    width: 18%;
+    /* height: 25%; */
+}
+
+.footer__quote {
+    width: 80%;
+    font-family: 'SansationReg', sans-serif;
+    font-size: 4vw;
+    color: #000;
+    text-align: center;
+    margin: 1.4em 0;
+}
+
+.quote__author {
+    font-family: 'SansationBold', sans-serif;
+    margin-top: 0.2em;
+}
+
+.footer__socialMedia {
+    width: 100%;
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__socialMedia a {
+    width: 10%;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__socialMedia i {
+    font-size: 8vw;
+    background-color: var(--light-blue);
+    border: 2px solid var(--dark-blue);
+    border-radius: 50%;
+    color: #fff;
+    padding: 0.3em;
+}
+
+.footer__socialMedia .fa-linkedin-in {
+    padding: 0.3em 0.39em;
+}
+
+.footer__credit {
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    height: 4vh;
+    background-color: var(--dark-blue);
+    color: #fff;
+    font-family: 'SansationReg', sans-serif;
+    font-size: 3.3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+    .footer__contact {
+        width: 800px;
+    }
+
+    .contact__title {
+        font-size: 1.5em;
+    }
+
+    .contact__button {
+        width: 10em;
+        font-size: 1.3em;
+    }
+    
+    .contact__button:hover {
+        background-color: var(--light-blue);
+        border: 2px solid #fff;
+        color: #fff;
+        transition: .3s;
+    }
+
+    .footer__img {
+        width: 7em;
+    }
+
+    .footer__quote {
+        width: 600px;
+        font-size: 1.1em;
+    }
+
+    .footer__socialMedia {
+        width: 30%;
+    }
+
+    .footer__socialMedia a {
+        
+    }
+
+    .footer__socialMedia i {
+        font-size: 2em;
+    }
+
+    .footer__credit {
+        font-size: .9em;
+    }
+}

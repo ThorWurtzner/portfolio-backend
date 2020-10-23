@@ -1,0 +1,30 @@
+@import url('../css/modules/about-me.css');
+@import url('../css/modules/header-introduction.css');
+@import url('../css/modules/navigation.css');
+@import url('../css/modules/my-work.css');
+@import url('../css/modules/footer.css');
+@import url('../css/animations.css)');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@font-face {
+    font-family: sansationReg;
+    src: url(../fonts/Sansation_Regular.ttf);
+}
+
+@font-face {
+    font-family: sansationBold;
+    src: url(../fonts/Sansation_Bold.ttf);
+}
+
+* {margin:0;padding:0;box-sizing: border-box;scroll-behavior: smooth}
+
+:root {
+    --green: #49AD7F;
+    --light-blue: #049DD9;
+    --dark-blue: #03588C;
+    --grey: #F0F0F0;
+}
+
+body {
+    overflow-x: hidden;
+}

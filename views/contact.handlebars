@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/modules/contact.css">
+</head>
+<body>
+    <form action="/contact" id="contact-form" autocomplete="off" method="post">
+        <p>{{msg}}</p>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <a href="/">Go back</a>
+</body>
+</html>

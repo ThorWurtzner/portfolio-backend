@@ -1,0 +1,90 @@
+{
+    "components": [
+            {
+                "name": "Weather Widget",
+                "description": "Dynamic backgrounds depending on the time of day, sunset etc.",
+                "challenges": "This was my first time fetching an API and using the content",
+                "image": "./images/components/weatherapp.PNG",
+                "altText": "weather app",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "code": "https://github.com/ThorWurtzner/API-Weather-Widget",
+                "website": "https://thorwurtzner.github.io/API-Weather-Widget/"
+            },
+            {
+                "name": "Photographer portfolio",
+                "description": "Portfolio design for a fictional photographer named Daniel Colton.",
+                "challenges": "A lot of crazy design choices with animations, vertical text etc.",
+                "image": "./images/components/photographer.PNG",
+                "altText": "photographer portfolio",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "code": "https://github.com/ThorWurtzner/artistic_website",
+                "website": "https://thorwurtzner.github.io/artistic_website/index.html"
+            },
+            {
+                "name": "Login / Signup design",
+                "description": "Design for a beautiful and responsive login form",
+                "challenges": "Had to decide on how to transition between the two different forms",
+                "image": "./images/components/loginsignup.PNG",
+                "altText": "photographer portfolio",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "code": "https://github.com/ThorWurtzner/artistic_website",
+                "website": "https://thorwurtzner.github.io/artistic_website/index.html"
+            },
+            {
+                "name": "Connect Three",
+                "description": "Classic game about getting three in a row.",
+                "challenges": "I hadn't tried creating an interactive gameboard before, or made the computer fight back",
+                "image": "./images/components/connect3.PNG",
+                "altText": "connect three game",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "code": "https://github.com/ThorWurtzner/Connect-three-game",
+                "website": "https://thorwurtzner.github.io/Connect-three-game/"
+            },
+            {
+                "name": "Pokedex",
+                "description": "Searchable pokedex of all 1000+ pokemons using pokeAPI.co.",
+                "challenges": "There's a lot of hard design decisions to be made, but I went for a more visually pleasing look compared to a very factual one.",
+                "image": "./images/components/pokemon.PNG",
+                "altText": "pokedex",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "JSON"
+                ],
+                "code": "https://github.com/ThorWurtzner/pokemon-API",
+                "website": "https://thorwurtzner.github.io/pokemon-API/"
+            },
+            {
+                "name": "Pokedex",
+                "description": "Searchable pokedex of all 1000+ pokemons using pokeAPI.co.",
+                "challenges": "There's a lot of hard design decisions to be made, but I went for a more visually pleasing look compared to a very factual one.",
+                "image": "./images/components/pokemon.PNG",
+                "altText": "pokedex",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "JSON"
+                ],
+                "code": "https://github.com/ThorWurtzner/pokemon-API",
+                "website": "https://thorwurtzner.github.io/pokemon-API/"
+            }
+    ]
+}
