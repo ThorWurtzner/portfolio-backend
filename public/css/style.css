@@ -1,9 +1,9 @@
-@import url('../css/modules/about-me.css');
-@import url('../css/modules/header-introduction.css');
-@import url('../css/modules/navigation.css');
-@import url('../css/modules/my-work.css');
-@import url('../css/modules/footer.css');
-@import url('../css/animations.css');
+@import url('./modules/about-me.css');
+@import url('./modules/header-introduction.css');
+@import url('./modules/navigation.css');
+@import url('./modules/my-work.css');
+@import url('./modules/footer.css');
+@import url('./animations.css');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 @font-face {
